@@ -86,11 +86,13 @@ export const mockCropPrices: CropPrice[] = [
 ];
 
 export const mockSchemes: GovernmentScheme[] = [
-  { id: "1", name: "PM-KISAN", description: "Income support of ₹6000/year to farmer families", eligibility: "All land-holding farmer families", region: "All India", link: "#" },
-  { id: "2", name: "Pradhan Mantri Fasal Bima Yojana", description: "Crop insurance scheme at subsidized premium", eligibility: "All farmers growing notified crops", region: "All India", link: "#" },
-  { id: "3", name: "Soil Health Card Scheme", description: "Free soil testing and health card for nutrients info", eligibility: "All farmers", region: "All India", link: "#" },
-  { id: "4", name: "Maharashtra Shetkari Yojana", description: "State-level crop support and subsidy program", eligibility: "Maharashtra farmers", region: "Maharashtra", link: "#" },
-  { id: "5", name: "Kisan Credit Card", description: "Short-term credit for crop production needs", eligibility: "All farmers, fishermen, animal husbandry", region: "All India", link: "#" },
+  { id: "1", name: "PM-KISAN", description: "Income support of ₹6000/year to farmer families", eligibility: "All land-holding farmer families", region: "All India", link: "https://pmkisan.gov.in/" },
+  { id: "2", name: "Pradhan Mantri Fasal Bima Yojana", description: "Crop insurance scheme at subsidized premium", eligibility: "All farmers growing notified crops", region: "All India", link: "https://pmfby.gov.in/" },
+  { id: "3", name: "Soil Health Card Scheme", description: "Free soil testing and health card for nutrients info", eligibility: "All farmers", region: "All India", link: "https://soilhealth.dac.gov.in/" },
+  { id: "4", name: "National Agriculture Market (e-NAM)", description: "Pan-India electronic trading portal to network APMC mandis", eligibility: "Farmers, Traders, FPOs", region: "All India", link: "https://enam.gov.in/web/" },
+  { id: "5", name: "Kisan Credit Card (KCC)", description: "Short-term credit for crop production needs at concessional interest", eligibility: "All farmers, fishermen, animal husbandry", region: "All India", link: "https://www.myscheme.gov.in/schemes/kcc" },
+  { id: "6", name: "Pradhan Mantri Krishi Sinchayee Yojana", description: "Subsidies on agriculture irrigation equipment (Micro irrigation)", eligibility: "All farmers", region: "All India", link: "https://pmksy.gov.in/" },
+  { id: "7", name: "Agriculture Infrastructure Fund", description: "Medium-long term debt financing for post-harvest management infrastructure", eligibility: "FPOs, Agri-entrepreneurs", region: "All India", link: "https://agriinfra.dac.gov.in/" },
 ];
 
 export const mockTasks: Task[] = [

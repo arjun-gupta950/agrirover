@@ -19,11 +19,10 @@ export default function Schemes() {
           <button
             key={r}
             onClick={() => setRegionFilter(r)}
-            className={`rounded-full px-3 py-1 text-xs font-medium border transition-colors ${
-              regionFilter === r
+            className={`rounded-full px-3 py-1 text-xs font-medium border transition-colors ${regionFilter === r
                 ? "bg-primary text-primary-foreground border-primary"
                 : "bg-card text-muted-foreground border-border hover:bg-muted"
-            }`}
+              }`}
           >
             {r}
           </button>
@@ -44,9 +43,14 @@ export default function Schemes() {
                   <span className="rounded-full bg-muted px-2 py-0.5">{scheme.region}</span>
                   <span>{scheme.eligibility}</span>
                 </div>
-                <button className="mt-3 flex items-center gap-1 text-xs font-medium text-primary hover:underline">
+                <a
+                  href={scheme.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-3 inline-flex items-center gap-1 text-xs font-medium text-primary hover:underline"
+                >
                   Learn More <ExternalLink className="h-3 w-3" />
-                </button>
+                </a>
               </div>
             </div>
           </div>

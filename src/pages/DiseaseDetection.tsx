@@ -129,7 +129,7 @@ export default function DiseaseDetection() {
               <div className="h-12 w-12 rounded-full border-4 border-primary/20 border-t-primary animate-spin" />
               <p className="text-sm text-muted-foreground">
                 {isConnected
-                  ? "Analyzing leaf image with TFLite model..."
+                  ? "Analyzing leaf image with ONNX model..."
                   : "Simulating analysis (backend offline)..."}
               </p>
             </div>
